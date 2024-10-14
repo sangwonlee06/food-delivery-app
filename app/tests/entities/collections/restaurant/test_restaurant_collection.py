@@ -10,6 +10,7 @@ from app.entities.collections.restaurant.restaurant_document import (
 )
 
 
+# @pytest.mark.asyncio
 async def test_shop_insert_one() -> None:
     # Given
     name = "Sample Restaurant"
